@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vscope Films",
+  title: "vscope Films",
   description: "coming soon",
 };
 

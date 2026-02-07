@@ -13,7 +13,7 @@ export default function Home() {
         gridGap={6}
         color="#ff6b35"
         maxOpacity={0.3}
-        flickerChance={0.2}
+        flickerChance={0.5}
       />
       <div className="relative z-10 w-full max-w-5xl bg-white rounded-2xl shadow-lg overflow-hidden ring-1 ring-black/5">
         <div className="grid grid-cols-1 md:grid-cols-2">
@@ -30,7 +30,7 @@ export default function Home() {
 
           <div className="p-10 md:p-16 flex flex-col justify-center">
             <div className="flex items-center justify-between">
-              <div className="text-sm text-zinc-500">Vscopefilms</div>
+              <div className="text-sm text-zinc-500">vscopefilms</div>
               <div className="text-sm text-zinc-400">Share</div>
             </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
               <Button type="submit" className="whitespace-nowrap">Notify Me</Button>
             </form>
 
-            <div className="mt-6 text-xs text-zinc-400">© {new Date().getFullYear()} Vscopefilms — All rights reserved</div>
+            <div className="mt-6 text-xs text-zinc-400">© {new Date().getFullYear()} vscopefilms — All rights reserved</div>
           </div>
         </div>
       </div>
