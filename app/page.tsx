@@ -38,7 +38,7 @@ export default function Home() {
             <p className="mt-2 text-sm text-zinc-500">Stay connected — we’ll share updates and sneak peeks.</p>
 
             <div className="mt-8">
-              <p className="text-sm text-zinc-500">Launch date coming soon — follow us for updates.</p>
+              <p className="text-sm text-zinc-500">Launch date coming soon — follow us for more updates.</p>
             </div>
 
             <form
